@@ -1,0 +1,18 @@
+name: LogCapture
+version: 1.0
+main: com.LogCapture
+author: Kre0lidge
+description: Simple plugin to capture specific log lines using regex
+api-version: 1.13
+
+commands:
+  logcap:
+    description: LogCapture plugin commands
+    usage: /logcap [reload|status]
+    permission: logcapture.admin
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  logcapture.admin:
+    description: Allows access to LogCapture admin commands
+    default: op

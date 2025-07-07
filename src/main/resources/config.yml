@@ -1,0 +1,24 @@
+# ╦  ╔═╗╔═╗  ╔═╗╔═╗╔═╗╔╦╗╦ ╦╦═╗╔═╗
+# ║  ║ ║║ ╦  ║  ╠═╣╠═╝ ║ ║ ║╠╦╝║╣ 
+# ╩═╝╚═╝╚═╝  ╚═╝╩ ╩╩   ╩ ╚═╝╩╚═╚═╝ 
+#                Author: Kre0lidge                                                                                       
+
+# Log file location (relative to server root or absolute path)
+log-file-path: "logs/latest.log"
+
+# Maximum output file size in MB before creating new file
+max-file-size-mb: 10
+
+# Discord webhook URL for notifications
+webhook-url: "https://example.com/webhook"
+
+# Regex patterns with optional context lines
+# Above and below specify how many lines to capture before and after the match. 
+# Format: 
+#   - regex: "pattern"
+#     above: number (optional, default: 0)
+#     below: number (optional, default: 0)
+regex-patterns:
+  - regex: "Bukkit"
+    above: 1
+    below: 1
